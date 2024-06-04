@@ -1,0 +1,23 @@
+@mixin box-flex($horizontal-axis, $vertical-axis, $wrap) {
+    display: flex;
+    justify-content: $horizontal-axis;
+    align-items: $vertical-axis;
+    flex-wrap: $wrap;
+}
+
+@mixin button-variant(
+  $background,
+  $border,
+  $color: color-contrast($background),
+  $hover-background: darken($background, 10%),
+  $hover-color: color-contrast($hover-background)
+) {
+  color: $color;
+  @include gradient-bg($background);
+
+  &:hover {
+    color: $hover-color;
+    @include gradient-bg($hover-background);
+    border-color: darken($border, 10%);
+  }
+}

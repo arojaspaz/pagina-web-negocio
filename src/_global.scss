@@ -1,0 +1,54 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: $font-primary;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+nav, .servicios, .presentacion, .footer-content{
+    width: 80%;
+    margin:auto;
+}
+
+p{
+    font-size:$font-p;
+    color: rgb(134, 132, 132);
+}
+
+h2{
+    font-size: $font-h2;
+}
+
+h3{
+    font-size: $font-h3;
+    font-weight:lighter;
+}
+
+img{
+    width:80%;
+    height: auto;
+}
+
+footer {
+    min-height: 80px;
+    background-color: rgb(10 10 10 / 79%);
+}

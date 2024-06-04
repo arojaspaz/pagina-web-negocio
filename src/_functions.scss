@@ -1,0 +1,4 @@
+@function color-contrast($color) {
+    $luma: ((red($color) * 0.299) + (green($color) * 0.587) + (blue($color) * 0.114)) / 255;
+    @return if($luma > 0.5, #000, #fff);
+}
