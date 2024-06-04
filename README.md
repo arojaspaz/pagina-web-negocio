@@ -11,3 +11,5 @@ el siguiente comando en el path del proyecto: <br>
 *sass src/main.scss public/css/main.css --watch*
 
 ## Notas a tener en cuenta
+En las animaciones se usa la propiedad "*animation-timeline*", la cual no es soportada por todos los navegadores, por lo que se recomienda
+utilizar polyfills para asegurarse de que todos los navegadores incluir estas animaciones.
