@@ -12,4 +12,4 @@ el siguiente comando en el path del proyecto: <br>
 
 ## Notas a tener en cuenta
 En las animaciones se usa la propiedad "*animation-timeline*", la cual no es soportada por todos los navegadores, por lo que se recomienda
-utilizar polyfills para asegurarse de que todos los navegadores incluir estas animaciones.
+utilizar polyfills para asegurarse de que todos los navegadores incluyan estas animaciones.
